@@ -1,0 +1,29 @@
+{
+  "name": "Alexa",
+  "version": "1.0.0",
+  "description": "Alexa for MacOS, a simple Electron wrapper.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=mas --icon=alexa.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "Alexa",
+    "MacOS"
+  ],
+  "author": "William Bowman",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron": "^1.3.4",
+    "electron-packager": "^8.4.0"
+  }
+}
